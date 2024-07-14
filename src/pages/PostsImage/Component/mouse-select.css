@@ -1,0 +1,31 @@
+.mouse-select__selectable {}
+
+.mouse-select__selectable .selected {
+  border: 2px solid red;
+}
+
+.mouse-select__frame {
+  background: red;
+  opacity: 0.5;
+}
+
+
+.elements-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  gap: 20px 20px;
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.selected {
+  background-color: chocolate;
+}
+
+.selection-box-info {
+  margin-top: 10px;
+}
